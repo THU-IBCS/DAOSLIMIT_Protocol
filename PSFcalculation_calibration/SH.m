@@ -7,7 +7,7 @@ function z = SH(c,data) % Zernike polynomial generation
 %
 %   [1]  ZHI LU etc,
 %        "A practical guide to scanning light-field microscopy with digital adaptive optics"
-%        submitted to Nature Protocols, 2021
+%        Nature Protocols, 2022
 
 % Contact: ZHI LU (luz18@mails.tsinghua.edu.cn)
 % Date  : 07/24/2021
