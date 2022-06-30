@@ -4,7 +4,7 @@ function  [realignFolderSub, Nshift]=Auto_realignment(RawDir, Nnum)
 % The Code is created based on the method described in the following paper 
 %   [1]  ZHI LU etc,
 %        "A practical guide to scanning light-field microscopy with digital adaptive optics"
-%        submitted to Nature Protocols, 2021
+%        Nature Protocols, 2022
 %
 %    Contact: ZHI LU (luz18@mails.tsinghua.edu.cn)
 %    Date  : 07/24/2021
@@ -69,8 +69,8 @@ for sourceIdx = 1:size(source,1)
 
             centerviewList(startFrame+1, :) = strcat(centerView(1:end-4),'0.tif'); % TODO: now we only support .0.tif
             
-            centerX=1024;        % center point selection (x-direction) manually£¬invalid when autoCenterMode = 1
-            centerY=1024;        % center point selection (y-direction) manually£¬invalid when autoCenterMode = 1
+            centerX=1024;        % center point selection (x-direction) manuallyÂ£Â¬invalid when autoCenterMode = 1
+            centerY=1024;        % center point selection (y-direction) manuallyÂ£Â¬invalid when autoCenterMode = 1
             if(autoCenterMode == 1)
                 [centerX, centerY, centerProb] = AutoCenter(imread(name, autoCenterFrame + 1), Nnum);
             else
@@ -94,7 +94,7 @@ for sourceIdx = 1:size(source,1)
             system(command);
 
         end
-        LaserMergeOption = 1;%=1 means merging of all channels£¬=0 means no merging channels
+        LaserMergeOption = 1;%=1 means merging of all channelsÂ£Â¬=0 means no merging channels
         if(frameJump > 1 && LaserMergeOption ~= 0)
             fprintf('working on channel merge...\n');
             channel = min([3, frameJump]);
