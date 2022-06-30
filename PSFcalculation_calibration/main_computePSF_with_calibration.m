@@ -2,7 +2,7 @@
 % The Code is created based on the method described in the following paper 
 %   [1]  ZHI LU etc,
 %        "A practical guide to scanning light-field microscopy with digital adaptive optics"
-%        submitted to Nature Protocols, 2021
+%        Nature Protocols, 2022
 %   [2]  JIAMIN WU, ZHI LU and DONG JIANG.etc,
 %        "Iterative tomography with digital adaptive optics permits hour-long intravital observation of 3D subcellular dynamics at millisecond scale"
 %        Cell, 2021. 
