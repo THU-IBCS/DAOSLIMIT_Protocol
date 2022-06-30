@@ -12,7 +12,7 @@ Licence: GNU General Public License v2.0
 
 If you use this code, please cite the companion paper where the original method appeared:
 
-Lu, Z. et al. A practical guide to scanning light-field microscopy with digital adaptive optics", Submitted to Nature Protocols (2021).
+Lu, Z. et al. A practical guide to scanning light-field microscopy with digital adaptive optics", Nature Protocols (2022). https://doi.org/10.1038/s41596-022-00703-9.
 
 For algorithmic details, please refer to our paper.
 
